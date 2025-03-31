@@ -1,0 +1,102 @@
+body{
+  margin: 3px;
+}
+
+#cabeca{
+  background-color: black;
+  padding: 12px;
+}
+
+#cabeca #main-t{
+  text-align: center;
+  margin-top: 8px;
+}
+
+#prg{
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 240px;
+  border-radius: 20px;
+  max-width: 500px;
+  height: 100%;
+  border: 1px solid lightgreen;
+  box-shadow: 1px 1px 1px 1px darkgreen;
+}
+
+.p2{
+  color: green;
+  border-radius: 20px;
+  height: 100%;
+  padding: 5px;
+  animation: back 5s 1s both;
+  
+}
+
+.tt{
+  margin-top: 15px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 3px 2px 2px 3px grey;
+  border-radius: 2px;
+}
+
+#main-t{
+  color: darkgrey;
+}
+
+.h1{
+  color: darkgrey;
+}
+
+.h4{
+  color: grey;
+}
+
+/* Animações 948-042-724 */
+
+@keyframes back{
+  0%{
+    background-color: white;
+  }
+  10%{
+    width: 2%;
+    background-color: lightgreen;
+  }
+  20%{
+    width: 20%;
+    background-color: lightgreen;
+  }
+  30%{
+    width: 30%;
+    background-color: lightgreen;
+  }
+  40%{
+    width: 40%;
+    background-color: lightgreen;
+  }
+  50%{
+    width: 50%;
+    background-color: lightgreen;
+  }
+  
+  60%{
+    width: 55%;
+    background-color: lightgreen;
+  }
+  70%{
+    width: 65%;
+    background-color: lightgreen;
+  }
+  80%{
+    width: 70%;
+    background-color: lightgreen;
+  }
+  90%{
+    width: 85%;
+    background-color: lightgreen;
+  }
+  100%{
+    width: 100%;
+    background-color: lightgreen;
+  }
+}
